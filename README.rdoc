@@ -1,10 +1,9 @@
-== Quote
+== Quotes
 
---------------------------------------------------------
 ##Rails application installation
---------------------------------------------------------
-$ cd quote
-$ bundle install
+
+$cd quote
+$bundle install
 
 Be sure to change the credentials in `.env` file and please check the configuration in `config/database.yml` for any modifications before creating the database.
   ## sample content of `.env` file
@@ -14,19 +13,19 @@ Be sure to change the credentials in `.env` file and please check the configurat
 
 1. Create database and migration
 
-  $ rails db:create
-  $ rails db:migrate
+  $rails db:create
+  $rails db:migrate
 
 1. Seed the tables
 
-  $ rails db:seed
+  $rails db:seed
 
 The project should work from here on, but if it has been updated with new dependencies, pull the code again, and run `$ bundle install`.
 
 #Run the tests
 
-$ rails test
+$rails test
 
 #Start the application
 
-$ rails server
+$rails server
