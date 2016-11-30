@@ -1,0 +1,19 @@
+// Place all the styles related to the quotes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-image: url(https://source.unsplash.com/category/nature/1600x900);
+}
+
+.quote {
+  padding-top: 300px;
+  padding-bottom: 300px;
+  color: whitesmoke;
+  font-weight: bold;
+  text-align: center;
+}
+
+#author {
+  color: orange;
+}
